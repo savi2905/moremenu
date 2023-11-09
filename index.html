@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .phone {
+        width: 300px;
+        height: 550px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 550px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        margin: 50px auto; 
+        position: relative;
+        overflow: hidden;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: black;
+  }
+  .app {
+            width: 100%;
+            height: 100px;
+            background: rgb(223, 223, 226);
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .app img {
+            height: 50px;
+            margin-right: 30px;
+        }
+
+        .app p {
+            margin: 0;
+            font-size: small;
+        }
+</style>
+</head>
+<body>
+    <div class="phone">
+        <div class="app">
+            <img src="obj.png" alt="App Icon">
+            <p>Object Detection</p>
+        </div>
+        <div class="app">
+            <img src="money.png" alt="App Icon">
+            <p>Money Detection</p>
+        </div>
+        <div class="app">
+            <img src="web.png" alt="App Icon">
+            <p>Weather Detection</p>
+        </div>
+        <div class="app">
+            <img src="call.png" alt="App Icon">
+            <p>Calling Service</p>
+        </div>
+        <div class="app">
+            <img src="gps.png" alt="App Icon">
+            <p>GPS</p>
+        </div>
+    </div>
+</body>
+</html>
